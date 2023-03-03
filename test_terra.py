@@ -31,6 +31,7 @@ def create_tables(login,password,database):
      engine = sqlalchemy.create_engine(DSN)
      Base.metadata.create_all(engine)
      # Base.metadata.drop_all(engine)
+     # Base.metadata.drop_all(engine)
 
 
 create_tables(login,password,database)
