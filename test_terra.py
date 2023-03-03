@@ -7,6 +7,7 @@ Base = declarative_base()
 
 
 
+
 class Course(Base):
      __tablename__ = "result_4"
 
