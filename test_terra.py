@@ -34,6 +34,7 @@ def create_tables(login,password,database):
      # Base.metadata.drop_all(engine)
 
 
+
 create_tables(login,password,database)
 def session(login,password,database):
     DSN = f"postgresql://{login}:{password}@localhost:5432/{database}"
